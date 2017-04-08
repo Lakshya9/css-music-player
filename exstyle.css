@@ -1,22 +1,32 @@
 *{
 	margin: 0;
 	padding: 0;
+    background: linear-gradient(to right ,grey,  black); /* Standard syntax (must be last) */
 }
+
+
 
 html{
 	
 	background-color: #000000;
+	
+
 }
 
 .container{ 
 	background-color:#C6C5CE;
 	position: relative;
-	width: 391px;
-	height: 300px;
+	width: 464px;
+	height: 330px;
 	margin-top: 122px;
 	margin-left: 400px; 
 	border-radius: 10px;
 	padding: 5px ;
+	box-shadow: 5px 5px 30px grey;
+
+
+
+
 
 }
 
@@ -43,7 +53,7 @@ html{
 	background-image:url("sprite.png");
 	background-repeat: no-repeat;
     margin-right: 20px;
-    margin-top: 18px;
+    margin-top: 8px;
     }
 
 
@@ -69,7 +79,7 @@ html{
     float: right;
     background-position: -146px 5px;
     display: block;
-}
+}/
 
 .volume {
     position: absolute;
@@ -88,8 +98,8 @@ input[type="range"] {
     -webkit-appearance: none;
     
     position: absolute;
-    top: 248px;
-    display:inline-block;
+    top: 286px;
+    display: block;
     width: -50px;
     height: 13px;
     border-radius: 30px;
